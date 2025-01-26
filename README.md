@@ -10,6 +10,6 @@
 - **Spatial-Constrained Metric**: Developed SCIoU similarity matrix combining IoU and center-distance constraints to resolve boundary ambiguity in dense scenes  
 
 ### 3. Group-Individual Dual Attention Motion Modeling  
-- **Crowd Dynamics Modeling**: Captured collective motion patterns using graph attention networks to predict occluded trajectories  
-- **Occlusion Compensation**: Reconstructed motion semantics via spatio-temporal attention mechanism
-- **Multimodal Fusion**: Dynamically fused collective movement patterns with individual motion features to enhance trajectory recovery after long-term occlusion  
+- **Individual and Group Interaction Modeling**: Introduced a dual attention mechanism within the Group and Individual Interaction Module (GIIM) to separately capture individual motion data and group interaction dynamics, enhancing trajectory prediction in crowded environments
+- **Spatial State Mapping**: Established a spatial state map that integrates individual motion habits with spatial relative features, allowing for a comprehensive understanding of pedestrian navigation in complex scenes
+- **Computational Efficiency**: Utilized Local Sensitive Hashing (LSH) to optimize attention calculations, balancing long-term temporal dependencies with reduced computational complexity in high-density scenarios.  
